@@ -1,53 +1,14 @@
-# Shaurya Dogra — Next.js Portfolio
 
-GitHub Pages-ready Next.js portfolio with static export.
+### One important clarification
 
-## Local development
+If you're asking **"Why am I seeing this instead of my portfolio?"**, then that's different.
 
-```bash
-npm install
-npm run dev
-```
+If you open:
 
-Open http://localhost:3000
+**`https://dograshaurya.github.io/portfolio/`**
 
-## Production build
+and you're seeing the README text you pasted **on the actual website**, then the GitHub Pages deployment is not serving the Next.js `out/` folder correctly.
 
-```bash
-npm run build
-```
+If you're seeing it **inside GitHub's repository page**, that's completely normal — GitHub automatically displays `README.md` below your repository files.
 
-The static site is generated in `out/`.
-
-## GitHub Pages deployment
-
-1. Create a GitHub repository. For the cleanest portfolio URL, use `dograshaurya.github.io`.
-2. Push this project to the `main` branch.
-3. Open **Settings → Pages**.
-4. Set **Source** to **GitHub Actions**.
-5. Pushes to `main` automatically build and deploy the site.
-
-For a project repository named `portfolio`, the URL will normally be:
-`https://dograshaurya.github.io/portfolio/`
-
-For a user site repository named `dograshaurya.github.io`, the URL will normally be:
-`https://dograshaurya.github.io/`
-
-## Adding real project screenshots
-
-Replace the placeholder files under:
-
-`public/projects/<project-slug>/`
-
-and update `data/projects.ts` when adding or editing case studies.
-
-## Portfolio routes
-
-- `/` — homepage
-- `/projects/` — project listing
-- `/projects/<slug>/` — individual case study
-
-
-## Dynamic case studies
-
-Projects are data-driven. Add a JSON file under `data/projects/` and push it to `main`; the dynamic case-study page is generated automatically during the GitHub Pages build. See `data/projects/README.md`.
+Given what you've shown, I suspect you're simply looking at the **GitHub repository page**, not the deployed portfolio.
