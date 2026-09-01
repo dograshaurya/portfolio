@@ -24,4 +24,3 @@ Current featured order starts with:
 2. `singelportalen` — SingelPortalen
 3. `ai-assisted-vehicle-insurance` — AI-Assisted Vehicle Insurance Quotation Platform
 
-**Tipping App is retained. CleanCash has been removed.**
