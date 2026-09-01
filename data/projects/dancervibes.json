@@ -1,0 +1,22 @@
+{
+  "slug": "dancervibes",
+  "title": "Dancervibes",
+  "category": "Events · Booking · QR validation",
+  "summary": "A dance event and class management platform with role-based operations, live availability, QR tickets and mobile entry validation.",
+  "role": "System Design & Full-Stack Development",
+  "technology": "Laravel · MySQL · Tailwind CSS",
+  "result": "End-to-end booking and entry workflow",
+  "challenge": "Organisers needed one system to manage events and classes while customers needed reliable live availability and ticketing at the point of entry.",
+  "solution": [
+    "Designed four roles: Super Admin, Organiser, Customer and Ticket Checker.",
+    "Built event and class management with capacity limits.",
+    "Implemented live slot availability and customer booking.",
+    "Generated QR-coded tickets for confirmed bookings.",
+    "Built a mobile-optimised ticket scanner for real-time validation.",
+    "Added central administration for users, events, revenue and configuration."
+  ],
+  "outcomes": [
+    "End-to-end booking and entry flow supporting multiple concurrent events.",
+    "No reported ticket-validation failures."
+  ]
+}

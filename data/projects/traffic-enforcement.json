@@ -1,0 +1,23 @@
+{
+  "slug": "traffic-enforcement",
+  "title": "Traffic Violation Detection & SmartCity Platform",
+  "category": "Real-time systems · Automation · Smart infrastructure",
+  "summary": "A production traffic and camera-data platform combining automated violation detection, high-frequency camera event processing, a React operations dashboard and automated challan generation.",
+  "role": "System Architecture & Full-Stack Development",
+  "technology": "Laravel · React.js · MySQL · AWS",
+  "result": "70%+ reduction in manual processing time",
+  "challenge": "The enforcement workflow depended heavily on manual review of camera footage. As traffic and camera volume increased, routine review created a growing processing burden and delayed enforcement.",
+  "solution": [
+    "Built a command-line automation tool to detect traffic violations from live camera feeds in real time.",
+    "Designed the Laravel backend to ingest, process and store high-frequency camera event data.",
+    "Built a responsive React dashboard for monitoring, filtering, replaying and exporting activity.",
+    "Automated challan generation and connected tickets to detected violations.",
+    "Refactored Eloquent queries and added database indexing for higher-throughput workloads.",
+    "Deployed the full-stack system on AWS with reliability and scale in mind."
+  ],
+  "outcomes": [
+    "More than 70% reduction in manual processing time.",
+    "35% improvement in data-pipeline throughput after ORM refactoring and query indexing.",
+    "High-concurrency camera feeds supported with no reported downtime."
+  ]
+}

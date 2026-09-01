@@ -46,3 +46,8 @@ and update `data/projects.ts` when adding or editing case studies.
 - `/` — homepage
 - `/projects/` — project listing
 - `/projects/<slug>/` — individual case study
+
+
+## Dynamic case studies
+
+Projects are data-driven. Add a JSON file under `data/projects/` and push it to `main`; the dynamic case-study page is generated automatically during the GitHub Pages build. See `data/projects/README.md`.

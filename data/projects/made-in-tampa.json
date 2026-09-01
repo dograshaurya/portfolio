@@ -1,0 +1,20 @@
+{
+  "slug": "made-in-tampa",
+  "title": "Made In Tampa",
+  "category": "Marketplace · Job portal · SPA",
+  "summary": "A dual-role job marketplace connecting Tampa Bay employers with local job seekers through listings, filtering, applications and dashboards.",
+  "role": "System Design & Full-Stack Development",
+  "technology": "Laravel · Vue.js · Inertia.js · Vuetify · MySQL · Tailwind CSS",
+  "result": "Fully operational employer and job-seeker marketplace",
+  "challenge": "The platform needed separate employer and job-seeker workflows without creating a fragmented user experience.",
+  "solution": [
+    "Built employer registration, company profiles and job creation workflows.",
+    "Built job-seeker browsing, filtering, detail pages and applications.",
+    "Created dashboards for both sides of the marketplace.",
+    "Used Laravel and Inertia.js for a seamless SPA-like experience without a separate API layer.",
+    "Used Vuetify and Tailwind CSS for the interface."
+  ],
+  "outcomes": [
+    "Operational marketplace with employer and seeker dashboards supporting local hiring workflows."
+  ]
+}

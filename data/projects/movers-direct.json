@@ -1,0 +1,20 @@
+{
+  "slug": "movers-direct",
+  "title": "Movers Direct",
+  "category": "WordPress · Custom plugin · Performance",
+  "summary": "A UK removals website rebuilt with a bespoke WordPress theme and custom quoting plugin, replacing a slow third-party solution.",
+  "role": "Full-Stack Development & Custom Plugin Author",
+  "technology": "WordPress · PHP · Custom Theme · Custom Plugin",
+  "result": "Substantial improvement in page-speed performance",
+  "challenge": "The existing third-party quoting tool was bloated and was contributing to poor page-speed performance.",
+  "solution": [
+    "Built a custom WordPress theme from scratch.",
+    "Developed a bespoke quoting plugin around origin, destination, property size and preferred date.",
+    "Replaced the third-party quoting dependency with project-specific PHP logic.",
+    "Optimised the quoting flow with performance and Core Web Vitals in mind."
+  ],
+  "outcomes": [
+    "Substantial improvement in page-speed scores after replacing the third-party tool.",
+    "Fully bespoke theme and plugin with no off-the-shelf quoting solution."
+  ]
+}

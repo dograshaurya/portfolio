@@ -1,0 +1,21 @@
+{
+  "slug": "menuverse",
+  "title": "Menuverse",
+  "category": "Insurtech · AI-assisted workflow · E-signature",
+  "summary": "An AI-assisted insurance policy flow that turns a structured vehicle questionnaire into a personalised quote and paperless purchase journey.",
+  "role": "System Design & Full-Stack Development",
+  "technology": "React.js · Node.js · MySQL",
+  "result": "60% faster quote generation",
+  "challenge": "The manual agent-assisted process introduced unnecessary steps between answering policy questions and receiving a quote.",
+  "solution": [
+    "Built a smooth multi-step questionnaire in React.js.",
+    "Implemented policy logic and pricing rules in Node.js.",
+    "Used AI-assisted logic to analyse responses and generate personalised quotes.",
+    "Added quote review, cart and digital-signature steps.",
+    "Stored policy configuration, responses and transaction records in MySQL."
+  ],
+  "outcomes": [
+    "Quote generation became 60% faster than the manual process it replaced.",
+    "Created a fully paperless insurance purchase flow."
+  ]
+}

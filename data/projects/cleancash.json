@@ -1,0 +1,22 @@
+{
+  "slug": "cleancash",
+  "title": "CleanCash",
+  "category": "Fintech · PWA · Transactions",
+  "summary": "A Progressive Web App for QR-based wallet-to-wallet tipping, designed so customers can tip without installing a native application.",
+  "role": "System Design & Backend Development",
+  "technology": "React.js · Node.js · PostgreSQL · Linux · CI/CD",
+  "result": "Release time reduced from hours to under 15 minutes",
+  "challenge": "The product needed reliable transaction handling and a deployment process that could support frequent releases without introducing avoidable operational risk.",
+  "solution": [
+    "Built wallet creation, personal QR codes and wallet-to-wallet transfer flows.",
+    "Implemented transaction processing, wallet balances and transfer history in Node.js.",
+    "Used PostgreSQL for financial data integrity.",
+    "Delivered a PWA experience without requiring an app download.",
+    "Implemented automated testing and deployment scripts on Linux.",
+    "Established CI/CD from the start for rapid, repeatable releases."
+  ],
+  "outcomes": [
+    "Zero downtime during the first 90 days post-launch.",
+    "CI/CD reduced release time from hours to under 15 minutes."
+  ]
+}

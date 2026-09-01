@@ -1,0 +1,19 @@
+{
+  "slug": "my-face-msg",
+  "title": "My Face Msg",
+  "category": "Social platform · Marketplace · Core PHP",
+  "summary": "A social networking platform with posts, groups, pages, comments, likes and an integrated marketplace experience.",
+  "role": "Backend & Full-Stack Development",
+  "technology": "Core PHP · MySQL",
+  "result": "Multi-feature social platform delivered",
+  "challenge": "The product required a broad set of social features while also supporting marketplace functionality within the same platform.",
+  "solution": [
+    "Built server-side functionality in Core PHP and MySQL.",
+    "Implemented posts, groups, pages, comments and likes.",
+    "Extended the platform with marketplace functionality.",
+    "Worked across the application stack to support user-facing workflows and the underlying data model."
+  ],
+  "outcomes": [
+    "Delivered a multi-feature social platform combining community and marketplace capabilities."
+  ]
+}
