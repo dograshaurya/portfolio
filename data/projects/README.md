@@ -18,12 +18,10 @@ The display order is controlled by:
 
 `data/project-order.json`
 
-Put the strongest project slug first to feature it at the top.
-
 Current featured order starts with:
 
 1. `traffic-enforcement` — Automated Violation Detection & Monitoring System
-2. `multilingual-credit-chat` — Multilingual Credit-Based Chat System
+2. `singelportalen` — SingelPortalen
 3. `ai-assisted-vehicle-insurance` — AI-Assisted Vehicle Insurance Quotation Platform
 
-The former CleanCash project is presented as **Tipping App** using the supplied project description.
+**Tipping App is retained. CleanCash has been removed.**

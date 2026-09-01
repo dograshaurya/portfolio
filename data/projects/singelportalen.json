@@ -1,22 +1,22 @@
 {
   "slug": "singelportalen",
   "title": "SingelPortalen",
-  "category": "Real-time product · Chat · Payments",
-  "summary": "A bilingual dating and chat platform with Admin, Agent and Customer roles, credit purchases, dashboards and real-time WebSocket messaging.",
-  "role": "System Design & Full-Stack Development",
-  "technology": "React.js · Node.js · MongoDB · Socket.io",
-  "result": "40% reduction in page-load time",
-  "challenge": "The platform needed real-time communication and a smooth experience for Swedish and English-speaking users. Polling created unnecessary overhead and limited responsiveness as usage grew.",
+  "category": "Real-time Product · Chat · Payments",
+  "summary": "A multilingual, real-time chat platform with Admin, Agent and Customer roles, credit-based messaging, live communication and agent earnings.",
+  "role": "Full-Stack Development · Real-time Systems",
+  "technology": "React.js · Node.js · MongoDB · Socket.io · CCBill",
+  "result": "Real-time messaging with credit-based monetization",
+  "challenge": "The product needed real-time customer-agent communication while controlling paid messaging through a credit model and supporting multiple languages.",
   "solution": [
-    "Designed the three-role product flow for Admin, Agent and Customer users.",
-    "Migrated chat architecture from polling to WebSocket messaging with Socket.io.",
-    "Implemented customer credit purchases through CCBill integration.",
-    "Built agent dashboards for customer relationships, reminders and earnings.",
-    "Added multilingual English/Swedish support, favourites and CDN-optimised assets.",
-    "Built admin visibility into user activity, chat logs and platform analytics."
+    "Built role-based Admin, Agent and Customer workflows.",
+    "Implemented real-time messaging using Socket.io.",
+    "Added English and Swedish multilingual support.",
+    "Implemented free messages followed by paid credits, with each paid message consuming one credit.",
+    "Integrated CCBill for credit purchases and built wallet, favorites and agent earnings features."
   ],
   "outcomes": [
-    "40% reduction in page-load time after the architecture change.",
-    "Zero reported messaging failures post-launch."
+    "Delivered responsive real-time customer-agent communication.",
+    "Implemented a complete credit wallet and paid messaging model.",
+    "Added administrative monitoring for users and chat activity."
   ]
 }

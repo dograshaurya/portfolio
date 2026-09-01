@@ -2,7 +2,7 @@
   "slug": "tipping-app",
   "title": "Tipping App",
   "category": "Fintech · PWA · Transactions",
-  "summary": "A Progressive Web App for QR-based wallet-to-wallet tipping, designed to let customers tip without installing a native application.",
+  "summary": "A Progressive Web App for QR-based wallet-to-wallet tipping, designed so customers can tip without installing a native application.",
   "role": "Full-Stack Development",
   "technology": "React.js · Node.js · PostgreSQL · Linux · CI/CD",
   "result": "Release time reduced from hours to under 15 minutes",
