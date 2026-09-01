@@ -1,0 +1,1 @@
+export default function Navbar(){return <nav><a className="logo" href="/">SHAURYA<span>.</span></a><div className="navlinks"><a href="/#work">Work</a><a href="/projects">Projects</a><a href="/#expertise">Expertise</a><a href="/#about">About</a><a href="/#experience">Experience</a><a href="/#contact">Contact</a></div></nav>}

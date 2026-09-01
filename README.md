@@ -1,20 +1,48 @@
-# Shaurya Dogra Portfolio
+# Shaurya Dogra — Next.js Portfolio
 
-Files:
-- index.html — homepage
-- projects.html — separate project listing
-- traffic-enforcement.html
-- singelportalen.html
-- cleancash.html
-- menuverse.html
-- dancervibes.html
-- made-in-tampa.html
-- movers-direct.html
-- my-face-msg.html
+GitHub Pages-ready Next.js portfolio with static export.
 
-No client website links are displayed in the project cards or case studies. The Traffic Violation Detection and SmartCityData work is intentionally presented as one combined case study, per the portfolio direction.
+## Local development
 
-## GitHub Pages
-Upload every file to the repository root. In GitHub: Settings → Pages → Deploy from branch → main → /(root).
+```bash
+npm install
+npm run dev
+```
 
-The site will then be available at `https://YOUR-USERNAME.github.io/portfolio/`.
+Open http://localhost:3000
+
+## Production build
+
+```bash
+npm run build
+```
+
+The static site is generated in `out/`.
+
+## GitHub Pages deployment
+
+1. Create a GitHub repository. For the cleanest portfolio URL, use `dograshaurya.github.io`.
+2. Push this project to the `main` branch.
+3. Open **Settings → Pages**.
+4. Set **Source** to **GitHub Actions**.
+5. Pushes to `main` automatically build and deploy the site.
+
+For a project repository named `portfolio`, the URL will normally be:
+`https://dograshaurya.github.io/portfolio/`
+
+For a user site repository named `dograshaurya.github.io`, the URL will normally be:
+`https://dograshaurya.github.io/`
+
+## Adding real project screenshots
+
+Replace the placeholder files under:
+
+`public/projects/<project-slug>/`
+
+and update `data/projects.ts` when adding or editing case studies.
+
+## Portfolio routes
+
+- `/` — homepage
+- `/projects/` — project listing
+- `/projects/<slug>/` — individual case study
