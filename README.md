@@ -1,46 +1,20 @@
-# Shaurya Dogra — Full-Stack Developer Portfolio
+# Shaurya Dogra Portfolio
 
-A modern, conversion-focused portfolio showcasing my work as a **Full-Stack JavaScript Developer**.
+Files:
+- index.html — homepage
+- projects.html — separate project listing
+- traffic-enforcement.html
+- singelportalen.html
+- cleancash.html
+- menuverse.html
+- dancervibes.html
+- made-in-tampa.html
+- movers-direct.html
+- my-face-msg.html
 
-I build web applications, APIs, dashboards, e-commerce platforms, and automation systems that solve real business problems.
+No client website links are displayed in the project cards or case studies. The Traffic Violation Detection and SmartCityData work is intentionally presented as one combined case study, per the portfolio direction.
 
-## 🚀 Live Portfolio
+## GitHub Pages
+Upload every file to the repository root. In GitHub: Settings → Pages → Deploy from branch → main → /(root).
 
-[Visit my portfolio](https://dograshaurya.github.io/portfolio/)
-
-## 🛠️ Tech Stack
-
-- JavaScript / TypeScript
-- React.js
-- Next.js
-- Node.js / Express
-- Laravel / PHP
-- MongoDB
-- PostgreSQL
-- MySQL
-- Tailwind CSS
-- REST APIs
-- WordPress / WooCommerce
-- Stripe
-- Git / GitHub
-
-## 📂 Featured Work
-
-The portfolio showcases real-world projects across:
-
-- SaaS & business applications
-- Web applications
-- E-commerce platforms
-- Admin dashboards
-- Web scraping & automation
-- API integrations
-- Custom business solutions
-
-## 📬 Connect With Me
-
-- [LinkedIn](https://www.linkedin.com/in/iamshaurya/)
-- [Upwork](https://www.upwork.com/freelancers/~01337a934b68255172)
-
----
-
-Built by **Shaurya Dogra**
+The site will then be available at `https://YOUR-USERNAME.github.io/portfolio/`.

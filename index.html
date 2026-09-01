@@ -1,99 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Shaurya Dogra — Full-Stack JavaScript Developer building web applications, APIs and automation systems.">
-<title>Shaurya Dogra — Full-Stack Developer</title>
-<style>
-:root{--bg:#08090b;--card:#111317;--text:#f4f4f5;--muted:#9b9ca3;--line:#24262b;--accent:#d8ff4f;--max:1120px}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.6}
-a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 28px}
-nav{height:78px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
-.logo{font-weight:800;letter-spacing:-.04em}.logo span{color:var(--accent)}
-.navlinks{display:flex;gap:26px;color:#b8b9bf;font-size:14px}.navlinks a:hover{color:#fff}
-.hero{padding:110px 0 90px;display:grid;grid-template-columns:1.25fr .75fr;gap:60px;align-items:end}
-.kicker{color:var(--accent);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.16em}
-h1{font-size:clamp(52px,8vw,94px);line-height:.94;letter-spacing:-.075em;margin:18px 0 28px;max-width:850px}
-.hero p{font-size:20px;color:var(--muted);max-width:680px;margin:0 0 32px}
-.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:12px 18px;border:1px solid var(--line);border-radius:999px;font-weight:700;font-size:14px}.btn.primary{background:var(--accent);color:#0a0b0d;border-color:var(--accent)}.btn:hover{transform:translateY(-1px)}
-.side{border-left:1px solid var(--line);padding-left:30px;color:var(--muted)}.side strong{color:#fff;display:block;font-size:28px;margin-bottom:4px}.side div{margin:0 0 28px}
-section{padding:86px 0;border-top:1px solid var(--line)}.section-head{display:flex;justify-content:space-between;gap:30px;margin-bottom:38px}.section-head h2{font-size:42px;letter-spacing:-.05em;margin:0}.section-head p{color:var(--muted);max-width:520px;margin:5px 0}
-.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.project{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px;min-height:280px;display:flex;flex-direction:column;justify-content:space-between}.project:hover{border-color:#41444b}.num{font-size:12px;color:#666b73}.project h3{font-size:28px;letter-spacing:-.04em;margin:30px 0 8px}.project p{color:var(--muted);margin:0 0 20px}.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{font-size:12px;border:1px solid var(--line);border-radius:999px;padding:5px 9px;color:#c5c6cb}
-.about{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}.about h2{font-size:42px;letter-spacing:-.05em;margin:0}.about p{font-size:18px;color:var(--muted);margin-top:0}.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:30px}.skill{padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:12px;font-size:14px}
-.cta{background:var(--accent);color:#090a0b;border-radius:28px;padding:54px}.cta h2{font-size:54px;line-height:1;letter-spacing:-.06em;margin:0 0 16px;max-width:720px}.cta p{max-width:620px;font-size:18px;margin-bottom:28px}.cta .btn{border-color:#090a0b}.cta .btn.primary{background:#090a0b;color:#fff}
-footer{padding:30px 0;color:#777;border-top:1px solid var(--line);font-size:13px;display:flex;justify-content:space-between}
-@media(max-width:760px){.navlinks{display:none}.hero,.about{grid-template-columns:1fr}.hero{padding:75px 0}.side{border-left:0;border-top:1px solid var(--line);padding:25px 0 0}.projects{grid-template-columns:1fr}.skills{grid-template-columns:repeat(2,1fr)}.cta{padding:34px}.cta h2{font-size:40px}.section-head{display:block}.section-head h2{font-size:36px}footer{display:block}}
-</style>
-</head>
-<body>
-<div class="wrap">
-<nav>
-  <a class="logo" href="#">SHAURYA DOGRA<span></span></a>
-  <div class="navlinks"><a href="#work">Work</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
-</nav>
-
-<main>
-<section class="hero" style="border-top:0">
-  <div>
-    <div class="kicker">Full-Stack Developer</div>
-    <h1>I build web products that solve real business problems.</h1>
-    <p>React, Next.js, Node.js, Laravel and modern APIs — from business websites and e-commerce to dashboards, custom web apps and automation systems.</p>
-    <div class="buttons">
-      <a class="btn primary" href="#work">View selected work</a>
-      <a class="btn" href="mailto:YOUR_EMAIL@example.com">Let's work together →</a>
-    </div>
-  </div>
-  <aside class="side">
-    <div><strong>Full-stack</strong>Frontend → backend → database → deployment</div>
-    <div><strong>Freelance</strong>Available for remote projects & long-term work</div>
-    <div><strong>$20/hr</strong>Standard freelance rate</div>
-  </aside>
-</section>
-
-<section id="work">
-  <div class="section-head"><h2>Selected work</h2><p>Case-study style project cards designed to sell the outcome, not just list technologies. Replace these placeholders with your strongest real projects.</p></div>
-  <div class="projects">
-    <article class="project"><div><span class="num">01 / AUTOMATION</span><h3>Lead Scraping & Automation</h3><p>Automated data collection, cleaning and export workflows designed to reduce repetitive research and turn raw web data into usable leads.</p></div><div class="tags"><span class="tag">Node.js</span><span class="tag">Playwright</span><span class="tag">REST APIs</span><span class="tag">MongoDB</span></div></article>
-    <article class="project"><div><span class="num">02 / SAAS</span><h3>Business Dashboard</h3><p>A production-style dashboard with authentication, API-driven data, role-based workflows and responsive interfaces for day-to-day operations.</p></div><div class="tags"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">PostgreSQL</span><span class="tag">Tailwind</span></div></article>
-    <article class="project"><div><span class="num">03 / E-COMMERCE</span><h3>Commerce Platform</h3><p>Responsive e-commerce experience with product flows, payment integration, backend APIs and performance-focused frontend implementation.</p></div><div class="tags"><span class="tag">React</span><span class="tag">PHP</span><span class="tag">WooCommerce</span><span class="tag">Stripe</span></div></article>
-    <article class="project"><div><span class="num">04 / WEB APP</span><h3>Custom Web Application</h3><p>End-to-end application development focused on clean UX, scalable APIs, database design and maintainable production code.</p></div><div class="tags"><span class="tag">Next.js</span><span class="tag">Node.js</span><span class="tag">MySQL</span><span class="tag">REST</span></div></article>
-  </div>
-</section>
-
-<section id="about">
-  <div class="about">
-    <div><div class="kicker">About</div><h2>More than a frontend developer.</h2></div>
-    <div>
-      <p>I work across the stack — translating business requirements into usable interfaces, reliable APIs and practical backend systems.</p>
-      <p>My experience covers Laravel, PHP, WordPress/WooCommerce, React.js, Next.js, JavaScript, SQL databases, Tailwind CSS, REST APIs, Stripe/payment integrations, responsive design, performance optimization and SEO.</p>
-      <p>For freelance work, I focus on understanding the underlying problem first, then choosing the simplest architecture that can solve it reliably.</p>
-    </div>
-  </div>
-</section>
-
-<section id="skills">
-  <div class="section-head"><h2>Stack</h2><p>Technologies I can use across the full product lifecycle.</p></div>
-  <div class="skills">
-    <div class="skill">JavaScript / TypeScript</div><div class="skill">React.js</div><div class="skill">Next.js</div>
-    <div class="skill">Node.js / Express</div><div class="skill">Laravel / PHP</div><div class="skill">REST APIs</div>
-    <div class="skill">MongoDB</div><div class="skill">PostgreSQL</div><div class="skill">MySQL</div>
-    <div class="skill">Tailwind CSS</div><div class="skill">WordPress / WooCommerce</div><div class="skill">Stripe</div>
-    <div class="skill">Git / GitHub</div><div class="skill">SEO / Performance</div><div class="skill">Automation</div>
-  </div>
-</section>
-
-<section id="contact">
-  <div class="cta">
-    <div class="kicker">Have a project?</div>
-    <h2>Let's build something useful.</h2>
-    <p>Need a full-stack developer for a new product, existing application, automation workflow or client project?</p>
-    <div class="buttons"><a class="btn primary" href="mailto:dograshaurya@gmail.com">Email me →</a><a class="btn" href="https://www.linkedin.com/in/iamshaurya/" target="_blank">LinkedIn</a><a class="btn" href="https://www.upwork.com/freelancers/~01337a934b68255172" target="_blank">Upwork</a></div>
-  </div>
-</section>
-</main>
-
-<footer><span>© 2026 Shaurya Dogra</span><span>Built for real work, not just a resume.</span></footer>
-</div>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Shaurya Dogra — Senior Full-Stack Laravel Developer with 10+ years of experience.">
+<title>Shaurya Dogra — Senior Full-Stack Developer</title><style>
+:root{--bg:#08090b;--card:#111317;--text:#f4f4f5;--muted:#9b9da5;--line:#252830;--accent:#d8ff4f;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:var(--max);margin:auto;padding:0 28px}
+nav{height:78px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:-.06em}.logo span,.eyebrow,.arrow{color:var(--accent)}.navlinks{display:flex;gap:27px;color:#b5b7be;font-size:14px}.navlinks a:hover{color:#fff}
+.hero{padding:110px 0 92px;display:grid;grid-template-columns:1.3fr .7fr;gap:70px;align-items:end}.eyebrow{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.16em}h1{font-size:clamp(54px,7.8vw,94px);line-height:.9;letter-spacing:-.08em;margin:18px 0 27px;max-width:850px}h1 em{font-style:normal;color:#858891}.lead{font-size:20px;color:var(--muted);max-width:760px;margin:0 0 32px}.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:12px 18px;border:1px solid var(--line);border-radius:999px;font-size:14px;font-weight:750}.btn.primary{background:var(--accent);color:#090a0b;border-color:var(--accent)}.hero-side{border-left:1px solid var(--line);padding-left:30px}.stat{margin-bottom:26px}.stat strong{display:block;font-size:25px;line-height:1.1}.stat span{color:var(--muted);font-size:14px}
+section{padding:86px 0;border-top:1px solid var(--line)}.head{display:flex;justify-content:space-between;gap:40px;margin-bottom:36px}h2{font-size:43px;line-height:1;letter-spacing:-.065em;margin:0}.head p{color:var(--muted);max-width:570px;margin:0}
+.feature{border:1px solid var(--line);border-radius:26px;background:var(--card);padding:34px;display:grid;grid-template-columns:1.2fr .8fr;gap:45px}.feature h3{font-size:39px;line-height:1.04;letter-spacing:-.055em;margin:14px 0 12px}.feature p,.card p{color:var(--muted)}.feature-visual{min-height:280px;border:1px solid var(--line);border-radius:20px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 35% 25%,#272b30,#111419 55%,#0a0c0e)}.feature-visual strong{display:block;text-align:center;color:var(--accent);font-size:66px;letter-spacing:-.08em}.feature-visual span{display:block;text-align:center;color:var(--muted);font-size:13px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:14px}.card{min-height:310px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:27px;display:flex;flex-direction:column;justify-content:space-between}.card:hover{border-color:#474b54}.card h3{font-size:29px;line-height:1.08;letter-spacing:-.045em;margin:13px 0 9px}.resultline{border-top:1px solid var(--line);padding-top:16px;font-size:14px}.mini{color:#777b84;font-size:12px;margin-top:9px;line-height:1.5}.arrow{display:inline-block;margin-top:15px;font-size:13px;font-weight:800}.more{display:inline-block;margin-top:22px;color:#c8cad0;font-size:14px}
+.about{display:grid;grid-template-columns:.75fr 1.25fr;gap:75px}.about h2{max-width:430px}.about p{color:var(--muted);font-size:18px;margin-top:0}.cert{display:inline-block;margin-top:8px;border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-size:13px;color:#c7c8ce}.cert b{color:var(--accent)}
+.expertise{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.expertise article{border:1px solid var(--line);border-radius:18px;padding:23px;background:var(--card)}.expertise h3{font-size:18px;margin:0 0 7px}.expertise p{font-size:14px;color:var(--muted);margin:0}
+.experience{border:1px solid var(--line);border-radius:20px;overflow:hidden}.role{padding:24px 27px;border-bottom:1px solid var(--line);display:grid;grid-template-columns:.75fr 1.25fr;gap:35px}.role:last-child{border-bottom:0}.role h3{font-size:18px;margin:0}.date{font-size:13px;color:var(--muted)}.role p{color:var(--muted);margin:0}
+.cta{background:var(--accent);color:#090a0b;border-radius:28px;padding:54px}.cta h2{font-size:57px;max-width:780px}.cta p{font-size:18px;max-width:700px;margin:18px 0 28px}.cta .btn{border-color:#090a0b}.cta .btn.primary{background:#090a0b;color:#fff}
+footer{border-top:1px solid var(--line);padding:30px 0;color:#72757c;font-size:13px;display:flex;justify-content:space-between}
+@media(max-width:820px){.navlinks{display:none}.hero,.feature,.about,.role{grid-template-columns:1fr}.hero{padding:75px 0}.hero-side{border-left:0;border-top:1px solid var(--line);padding:25px 0 0}.cards,.expertise{grid-template-columns:1fr}.head{display:block}.head p{margin-top:14px}.cta{padding:35px}.cta h2{font-size:43px}}
+</style></head><body><div class="wrap">
+<nav><a class="logo" href="#">SHAURYA<span>.</span></a><div class="navlinks"><a href="#work">Work</a><a href="projects.html">Projects</a><a href="#expertise">Expertise</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a></div></nav>
+<header class="hero"><div><div class="eyebrow">Senior Full-Stack Laravel Developer · 12+ Years</div><h1>I build <em>production systems</em> that solve real business problems.</h1><p class="lead">Full-stack engineering across Laravel, PHP, React, Vue, Node.js and WordPress — from system architecture and development to performance, testing and cloud deployment.</p><div class="buttons"><a class="btn primary" href="#work">Explore selected work →</a><a class="btn" href="mailto:dograshaurya@gmail.com">Start a conversation</a></div></div>
+<aside class="hero-side"><div class="stat"><strong>12+ years</strong><span>Full-stack development</span></div><div class="stat"><strong>26 WordPress sites</strong><span>Custom themes, plugins, WooCommerce & more</span></div><div class="stat"><strong>Laravel Certified</strong><span>Certification issued May 2023</span></div><div class="stat"><strong>Global delivery</strong><span>Clients across US, UK, Canada, Australia & Europe</span></div></aside></header>
+<section id="work"><div class="head"><h2>Selected work</h2><p>Case studies built around the problem, your contribution, the technical approach and the outcome — not just a technology list.</p></div>
+<div class="feature"><div><div class="eyebrow">Real-time systems · Automation · Smart infrastructure</div><h3>Traffic Violation Detection & SmartCity Platform</h3><p>A production traffic and camera-data platform combining automated violation detection, high-frequency camera event processing, a React operations dashboard and automated challan generation.</p><div class="buttons" style="margin-top:24px"><a class="btn primary" href="traffic-enforcement.html">Read case study →</a><a class="btn" href="projects.html">View all projects</a></div></div><div class="feature-visual"><div><strong>70%+</strong><span>reduction in manual processing</span></div></div></div>
+<div class="cards"><article class="card"><div><div class="eyebrow">Real-time systems · Automation · Smart infrastructure</div><h3>Traffic Violation Detection & SmartCity Platform</h3><p>A production traffic and camera-data platform combining automated violation detection, high-frequency camera event processing, a React operations dashboard and automated challan generation.</p></div><div><div class="resultline"><b>70%+ reduction in manual processing time</b></div><div class="mini">Laravel · React.js · MySQL · AWS</div><a class="arrow" href="traffic-enforcement.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">Real-time product · Chat · Payments</div><h3>SingelPortalen</h3><p>A bilingual dating and chat platform with Admin, Agent and Customer roles, credit purchases, dashboards and real-time WebSocket messaging.</p></div><div><div class="resultline"><b>40% reduction in page-load time</b></div><div class="mini">React.js · Node.js · MongoDB · Socket.io</div><a class="arrow" href="singelportalen.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">Fintech · PWA · Transactions</div><h3>CleanCash</h3><p>A Progressive Web App for QR-based wallet-to-wallet tipping, designed so customers can tip without installing a native application.</p></div><div><div class="resultline"><b>Release time reduced from hours to under 15 minutes</b></div><div class="mini">React.js · Node.js · PostgreSQL · Linux · CI/CD</div><a class="arrow" href="cleancash.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">Insurtech · AI-assisted workflow · E-signature</div><h3>Menuverse</h3><p>An AI-assisted insurance policy flow that turns a structured vehicle questionnaire into a personalised quote and paperless purchase journey.</p></div><div><div class="resultline"><b>60% faster quote generation</b></div><div class="mini">React.js · Node.js · MySQL</div><a class="arrow" href="menuverse.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">Events · Booking · QR validation</div><h3>Dancervibes</h3><p>A dance event and class management platform with role-based operations, live availability, QR tickets and mobile entry validation.</p></div><div><div class="resultline"><b>End-to-end booking and entry workflow</b></div><div class="mini">Laravel · MySQL · Tailwind CSS · Linux</div><a class="arrow" href="dancervibes.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">Marketplace · Job portal · SPA</div><h3>Made In Tampa</h3><p>A dual-role job marketplace connecting Tampa Bay employers with local job seekers through listings, filtering, applications and dashboards.</p></div><div><div class="resultline"><b>Fully operational employer and job-seeker marketplace</b></div><div class="mini">Laravel · Vue.js · Inertia.js · Vuetify · MySQL · Tailwind CSS</div><a class="arrow" href="made-in-tampa.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">WordPress · Custom plugin · Performance</div><h3>Movers Direct</h3><p>A UK removals website rebuilt with a bespoke WordPress theme and custom quoting plugin, replacing a slow third-party solution.</p></div><div><div class="resultline"><b>Substantial improvement in page-speed performance</b></div><div class="mini">WordPress · PHP · Custom Theme · Custom Plugin</div><a class="arrow" href="movers-direct.html">View case study →</a></div></article><article class="card"><div><div class="eyebrow">Social platform · Marketplace · Core PHP</div><h3>My Face Msg</h3><p>A social networking platform with posts, groups, pages, comments, likes and an integrated marketplace experience.</p></div><div><div class="resultline"><b>Multi-feature social platform delivered</b></div><div class="mini">Core PHP · MySQL</div><a class="arrow" href="my-face-msg.html">View case study →</a></div></article></div><a class="more" href="projects.html">View the complete project archive →</a></section>
+<section id="expertise"><div class="head"><h2>Expertise</h2><p>End-to-end delivery across backend architecture, modern frontends, data, cloud infrastructure, WordPress and engineering quality.</p></div><div class="expertise">
+<article><h3>Laravel & PHP</h3><p>Laravel 8–11, PHP 8, Lumen, Eloquent ORM, MVC, queues, Horizon, Redis, Blade, Livewire, Sanctum and Passport.</p></article>
+<article><h3>React, Vue & Node</h3><p>React.js, Vue 2/3, Inertia.js, Node.js, JavaScript, Tailwind CSS, Vuetify and responsive application interfaces.</p></article>
+<article><h3>Databases & APIs</h3><p>MySQL, PostgreSQL, MongoDB, schema design, indexing, query optimisation, RESTful APIs and third-party integrations.</p></article>
+<article><h3>WordPress</h3><p>Custom themes, custom plugins, ACF, Elementor, Divi, Gutenberg, WooCommerce, membership platforms and multisite.</p></article>
+<article><h3>Cloud & Delivery</h3><p>AWS, GCP, Docker, Linux, DigitalOcean, Laravel Forge, GitHub/GitLab and CI/CD workflows.</p></article>
+<article><h3>Performance & Quality</h3><p>Core Web Vitals, CDN, caching, PHPUnit, feature testing, code reviews, PR gates, debugging and Agile/Scrum delivery.</p></article>
+</div></section>
+<section id="about"><div class="about"><div><div class="eyebrow">About</div><h2>Senior engineering with business context.</h2></div><div><p>I have spent more than a decade building web applications, progressing from PHP/CodeIgniter development into senior full-stack, architecture and team-lead responsibilities.</p><p>Since 2023, I have worked independently with international clients, taking ownership across requirements, system design, implementation, optimisation and deployment.</p><p>My focus is practical: software that performs well, remains maintainable, ships reliably and solves the underlying business problem.</p><div class="cert"><b>✓ Laravel Certified Developer</b> · May 2023</div></div></div></section>
+<section id="experience"><div class="head"><h2>Experience</h2><p>A decade of progression from hands-on PHP development to senior full-stack engineering and technical leadership.</p></div><div class="experience">
+<div class="role"><div><h3>Senior Laravel Developer / Freelance Consultant</h3><div class="date">Self-Employed · Nov 2023 — Present</div></div><p>End-to-end product ownership across architecture, build and deployment for international clients. Delivered measurable improvements in performance, throughput and release speed.</p></div>
+<div class="role"><div><h3>Engineering Team Lead</h3><div class="date">Exotica IT Solution · Aug 2023 — Nov 2023</div></div><p>Led a 6-person engineering team, introduced code-review gates and PHPUnit testing, and aligned release cycles with project milestones. Reported 40% drop in post-deployment bugs and 100% on-time milestone delivery.</p></div>
+<div class="role"><div><h3>Senior Full-Stack Lead Developer</h3><div class="date">Tech Prastish Software Solution · May 2015 — Jul 2023</div></div><p>Led backend and frontend development across complex applications, REST APIs and integrations. Delivered 26 WordPress sites and reduced performance issues by 50% through query optimisation, Redis, CDN and Core Web Vitals work.</p></div>
+<div class="role"><div><h3>Web Developer</h3><div class="date">Dev IT Services · Aug 2014 — Apr 2015</div></div><p>Delivered PHP, HTML, CSS and JavaScript projects using CodeIgniter, building the foundation for a decade of custom web application development.</p></div>
+</div></section>
+<section id="contact"><div class="cta"><div class="eyebrow">Have a project or role?</div><h2>Let's build something reliable.</h2><p>Need a senior developer to take ownership of an existing Laravel/PHP application, improve a production system, build a new product, or handle a custom WordPress/full-stack project?</p><div class="buttons"><a class="btn primary" href="mailto:dograshaurya@gmail.com">dograshaurya@gmail.com →</a><a class="btn" href="https://www.linkedin.com/in/iamshaurya/" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="https://www.upwork.com/freelancers/~01337a934b68255172" target="_blank" rel="noopener">Upwork</a></div></div></section>
+<footer><span>© 2026 Shaurya Dogra</span><span>Senior Full-Stack Laravel Developer</span></footer></div></body></html>
