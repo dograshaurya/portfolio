@@ -1,0 +1,22 @@
+{
+  "slug": "loan-application-api",
+  "title": "Loan Application API System",
+  "category": "Fintech · Laravel · REST API",
+  "summary": "A secure Laravel API for loan applications with weekly repayment schedules, approval workflows and repayment tracking.",
+  "role": "Backend & API Development",
+  "technology": "Laravel · REST API",
+  "result": "Secure loan application and weekly repayment workflow",
+  "challenge": "The system needed authenticated loan applications, structured weekly repayment terms and straightforward repayment tracking.",
+  "solution": [
+    "Built authenticated endpoints for loan applications.",
+    "Implemented amount and loan-term selection.",
+    "Structured approved loans around weekly repayments.",
+    "Added a simplified endpoint for submitting weekly repayments.",
+    "Focused on reliable processing and repayment tracking."
+  ],
+  "outcomes": [
+    "Delivered a complete loan application API workflow.",
+    "Provided predictable weekly repayment handling.",
+    "Kept authenticated interactions secure and straightforward."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "social-media-paid-voting",
+  "title": "Social Media Platform with Paid Voting & Video Marketplace",
+  "category": "Social Platform · Paid Voting · Video Marketplace",
+  "summary": "A social platform for video sharing, creator contests, paid voting and marketplace advertising, built around engagement and monetization.",
+  "role": "Full-Stack Development",
+  "technology": "Laravel · MySQL · Stripe · PayPal",
+  "result": "Paid voting and video-stream monetization built into a social platform",
+  "challenge": "The platform needed social engagement features alongside a secure paid voting system and a monetization channel for video and feed advertising.",
+  "solution": [
+    "Built social features for posts, video sharing and creator interaction.",
+    "Implemented contest voting with one free vote per user and additional paid votes.",
+    "Integrated Stripe and PayPal for purchasing additional votes.",
+    "Built a marketplace module for ad placements in video streams and post feeds.",
+    "Focused on performance, security and user engagement."
+  ],
+  "outcomes": [
+    "Delivered a complete social publishing and interaction experience.",
+    "Added a monetized voting workflow.",
+    "Created an additional advertising monetization channel."
+  ]
+}

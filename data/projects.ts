@@ -15,14 +15,21 @@ export type Project = {
 };
 
 const projectsDirectory = path.join(process.cwd(), "data/projects");
+const orderPath = path.join(process.cwd(), "data/project-order.json");
 
 export function getProjects(): Project[] {
-  return fs.readdirSync(projectsDirectory)
+  const projects = fs.readdirSync(projectsDirectory)
     .filter((file) => file.endsWith(".json"))
     .map((file) => JSON.parse(
       fs.readFileSync(path.join(projectsDirectory, file), "utf8")
-    ) as Project)
-    .sort((a, b) => a.title.localeCompare(b.title));
+    ) as Project);
+
+  const order: string[] = JSON.parse(fs.readFileSync(orderPath, "utf8"));
+  const rank = new Map(order.map((slug, index) => [slug, index]));
+
+  return projects.sort(
+    (a, b) => (rank.get(a.slug) ?? 999) - (rank.get(b.slug) ?? 999)
+  );
 }
 
 export function getProject(slug: string): Project | undefined {

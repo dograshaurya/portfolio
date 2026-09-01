@@ -1,0 +1,21 @@
+{
+  "slug": "point-management",
+  "title": "Point Management – Laravel Backend and API",
+  "category": "Mobile Backend · Laravel · REST APIs",
+  "summary": "Secure and scalable Laravel APIs for an Android-based point management system with authentication, point tracking and transaction history.",
+  "role": "Backend & API Development",
+  "technology": "Laravel · Laravel Passport · REST APIs",
+  "result": "Reliable token-based authentication for mobile workflows",
+  "challenge": "The Android application needed a secure backend for user authentication, point tracking and transaction history.",
+  "solution": [
+    "Developed secure APIs using Laravel and Passport.",
+    "Implemented token-based authentication.",
+    "Built point tracking and transaction history workflows.",
+    "Optimized the backend for Android integration and reliable mobile interactions."
+  ],
+  "outcomes": [
+    "Delivered secure authentication and mobile-ready APIs.",
+    "Provided consistent point and transaction tracking.",
+    "Focused on backend performance and data integrity."
+  ]
+}

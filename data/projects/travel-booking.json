@@ -1,0 +1,21 @@
+{
+  "slug": "travel-booking",
+  "title": "Travel Booking Platform",
+  "category": "Travel · Booking · API Aggregation",
+  "summary": "A Laravel travel booking platform with an advanced search layer using Node.js and MongoDB to aggregate real-time results from multiple APIs.",
+  "role": "Full-Stack Development",
+  "technology": "Laravel · MySQL · Node.js · MongoDB",
+  "result": "60% faster travel deal searches",
+  "challenge": "Travel searches needed to aggregate results from multiple APIs while remaining fast and responsive for users.",
+  "solution": [
+    "Built both backend and frontend of the travel booking platform using Laravel.",
+    "Developed an advanced search feature using Node.js and MongoDB.",
+    "Integrated multiple APIs for real-time travel results.",
+    "Optimized the search workflow for faster deal discovery."
+  ],
+  "outcomes": [
+    "Travel deal searches became 60% faster.",
+    "Users could see real-time results from multiple APIs.",
+    "Improved the overall travel-search experience."
+  ]
+}

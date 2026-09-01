@@ -1,0 +1,21 @@
+{
+  "slug": "tipping-app",
+  "title": "Tipping App",
+  "category": "Fintech · PWA · Transactions",
+  "summary": "A Progressive Web App for QR-based wallet-to-wallet tipping, designed to let customers tip without installing a native application.",
+  "role": "Full-Stack Development",
+  "technology": "React.js · Node.js · PostgreSQL · Linux · CI/CD",
+  "result": "Release time reduced from hours to under 15 minutes",
+  "challenge": "The tipping experience needed to work quickly on mobile devices without requiring customers to install a native application.",
+  "solution": [
+    "Built a Progressive Web App for QR-based wallet-to-wallet tipping.",
+    "Implemented the frontend and backend transaction workflow.",
+    "Optimized the deployment process with Linux and CI/CD tooling.",
+    "Designed the experience around quick access from QR codes."
+  ],
+  "outcomes": [
+    "Customers can tip without installing a native application.",
+    "Release time was reduced from hours to under 15 minutes.",
+    "Delivered a mobile-focused transaction experience."
+  ]
+}

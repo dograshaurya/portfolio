@@ -1,0 +1,21 @@
+{
+  "slug": "id-photo-generator",
+  "title": "ID Photo Generator WordPress Plugin",
+  "category": "WordPress · Custom Plugin · API Integration",
+  "summary": "A custom WordPress plugin for automated ID photo generation using third-party API integration, real-time processing and validation.",
+  "role": "WordPress Plugin Development",
+  "technology": "PHP · WordPress · REST API",
+  "result": "Automated ID-photo formatting and validation",
+  "challenge": "Users needed a simpler way to upload images and receive correctly formatted ID photos without manual processing.",
+  "solution": [
+    "Built a custom WordPress plugin for ID photo generation.",
+    "Integrated a third-party image-processing API.",
+    "Added upload, real-time processing and validation workflows.",
+    "Automated photo formatting inside WordPress."
+  ],
+  "outcomes": [
+    "Reduced manual effort for ID photo preparation.",
+    "Automated formatting and validation.",
+    "Created a scalable API-integrated WordPress solution."
+  ]
+}

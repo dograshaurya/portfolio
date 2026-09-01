@@ -1,41 +1,29 @@
-# Add a new project
+# Dynamic case studies
 
-Create a new `.json` file in this folder.
+Each `.json` file in this folder is a project.
 
-Example: `my-new-project.json`
+Add a new file such as `my-new-project.json`, then push to `main`. The Next.js static build automatically creates:
 
-```json
-{
-  "slug": "my-new-project",
-  "title": "My New Project",
-  "category": "SaaS · Laravel · React",
-  "summary": "Short project description.",
-  "role": "System Design & Full-Stack Development",
-  "technology": "Laravel · React · MySQL · AWS",
-  "result": "40% faster processing",
-  "challenge": "What business/technical problem did you solve?",
-  "solution": [
-    "What you built.",
-    "What you improved.",
-    "How you handled the technical challenge."
-  ],
-  "outcomes": [
-    "Measured outcome.",
-    "Another concrete result."
-  ]
-}
-```
-
-That file automatically creates:
-
-- Homepage project card
-- `/portfolio/projects/` listing card
-- `/portfolio/projects/my-new-project/` case study
+- A project card on the homepage
+- A card on `/portfolio/projects/`
+- A case study at `/portfolio/projects/<slug>/`
 
 For screenshots, create:
 
-`public/projects/my-new-project/`
+`public/projects/<slug>/`
 
-and put the screenshots there.
+and add the screenshots there.
 
-This is a static GitHub Pages site, so adding a project means adding the JSON + images to GitHub and pushing to `main`. GitHub Actions rebuilds the case-study pages automatically.
+The display order is controlled by:
+
+`data/project-order.json`
+
+Put the strongest project slug first to feature it at the top.
+
+Current featured order starts with:
+
+1. `traffic-enforcement` — Automated Violation Detection & Monitoring System
+2. `multilingual-credit-chat` — Multilingual Credit-Based Chat System
+3. `ai-assisted-vehicle-insurance` — AI-Assisted Vehicle Insurance Quotation Platform
+
+The former CleanCash project is presented as **Tipping App** using the supplied project description.

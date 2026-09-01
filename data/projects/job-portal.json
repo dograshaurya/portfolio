@@ -1,0 +1,22 @@
+{
+  "slug": "job-portal",
+  "title": "Job Portal for Employers & Job Seekers",
+  "category": "Marketplace · Job Portal · SPA",
+  "summary": "A full-featured two-sided job portal connecting employers with job seekers through listings, company profiles, applications and role-specific dashboards.",
+  "role": "Full-Stack Development",
+  "technology": "Laravel · Vue.js · Inertia.js · Vuetify · MySQL",
+  "result": "Fully operational employer and job-seeker marketplace",
+  "challenge": "The platform needed separate employer and job-seeker workflows while keeping job discovery, applications and management simple and responsive.",
+  "solution": [
+    "Built employer workflows for company profiles, job posting and application management.",
+    "Built job-seeker workflows for browsing listings, viewing job details and applying.",
+    "Used Vue.js and Vuetify for a responsive modern frontend.",
+    "Used Inertia.js with Laravel for a smooth SPA-style experience.",
+    "Focused on clean architecture and scalable design."
+  ],
+  "outcomes": [
+    "Delivered complete employer and job-seeker workflows.",
+    "Created a responsive, user-friendly SPA experience.",
+    "Provided scalable foundations for listings, applications and dashboards."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "multilingual-credit-chat",
+  "title": "Multilingual Credit-Based Chat System",
+  "category": "Real-time Product · Chat · Payments",
+  "summary": "A multilingual real-time chat platform with Admin, Agent and Customer roles, credit-based messaging, live communication and agent earnings.",
+  "role": "Full-Stack Development · Real-time Systems",
+  "technology": "React.js · Node.js · MongoDB · Socket.io · CCBill",
+  "result": "Real-time messaging with credit-based monetization",
+  "challenge": "The product needed real-time customer-agent communication while controlling paid messaging through a credit model and supporting multiple languages.",
+  "solution": [
+    "Built role-based Admin, Agent and Customer workflows.",
+    "Implemented real-time messaging using Socket.io.",
+    "Added English and Swedish multilingual support.",
+    "Implemented free messages followed by paid credits, with each paid message consuming one credit.",
+    "Integrated CCBill for credit purchases and built wallet, favorites and agent earnings features."
+  ],
+  "outcomes": [
+    "Delivered responsive real-time customer-agent communication.",
+    "Implemented a complete credit wallet and paid messaging model.",
+    "Added administrative monitoring for users and chat activity."
+  ]
+}

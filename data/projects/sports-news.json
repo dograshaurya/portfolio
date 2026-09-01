@@ -1,0 +1,22 @@
+{
+  "slug": "sports-news",
+  "title": "Sports News & Article Management Platform",
+  "category": "Content Platform · React · Node.js",
+  "summary": "A dynamic sports news platform with an admin panel for article creation, categories and tags and a responsive frontend for content discovery.",
+  "role": "Full-Stack Development",
+  "technology": "React.js · Node.js · MongoDB",
+  "result": "Scalable content publishing and discovery workflow",
+  "challenge": "The platform needed flexible content management and an efficient way for users to browse sports articles by categories and tags.",
+  "solution": [
+    "Built a dynamic React.js frontend for sports content.",
+    "Developed a Node.js backend with MongoDB.",
+    "Created admin workflows for article creation and organization.",
+    "Implemented categories and tags for content discovery.",
+    "Designed the interface to be responsive and scalable."
+  ],
+  "outcomes": [
+    "Delivered flexible article publishing and organization.",
+    "Improved content discovery through categories and tags.",
+    "Created a responsive sports-content experience."
+  ]
+}

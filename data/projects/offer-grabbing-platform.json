@@ -1,0 +1,21 @@
+{
+  "slug": "offer-grabbing-platform",
+  "title": "Offer Grabbing Platform",
+  "category": "Marketplace · Laravel API · Mobile Backend",
+  "summary": "A secure Laravel API backend for a mobile platform where sellers manage promotional offers and customers browse and grab live deals.",
+  "role": "Backend & API Development",
+  "technology": "Laravel · API Development",
+  "result": "High-performance backend for real-time promotional offers",
+  "challenge": "The mobile platform needed fast and reliable exchange of live offers between sellers and customers.",
+  "solution": [
+    "Built a Laravel API backend supporting seller and customer roles.",
+    "Implemented offer creation and management for sellers.",
+    "Enabled customers to browse and grab live deals.",
+    "Optimized the backend for secure, reliable and scalable data exchange."
+  ],
+  "outcomes": [
+    "Delivered seller and customer workflows through a mobile-ready API.",
+    "Supported live promotional offer discovery.",
+    "Focused on performance, security and scalability."
+  ]
+}
